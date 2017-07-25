@@ -18,7 +18,7 @@ npm run webpack-serve
 
 ## Build
 
-To build for product, use webpack build
+To build for production, use webpack build
 
 ```bash
 npm run build
