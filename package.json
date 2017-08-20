@@ -4,7 +4,7 @@
   "description": "An example of a webpack build pipeline",
   "scripts": {
     "build": "npm run webpack-build",
-    "lint": "jshint ./*.js ./app/*.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-build": "webpack --progress --colors ",
     "webpack-watch": "webpack --progress --colors --watch",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/cuperman/webpack-example#readme",
   "devDependencies": {
     "css-loader": "^0.28.4",
-    "jshint": "^2.9.5",
+    "eslint": "^4.5.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
